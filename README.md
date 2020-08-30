@@ -23,8 +23,14 @@ documentation comments)
 
 -source code lines matches in red.
 
+![black_font_hypersearch](https://github.com/jinglun-cn/JEdit/blob/master/figure/black_font_hypersearch.png?raw=true)
+
 ### 3. Filter modified-date for Search in Directory
 In the Search in Directory feature (under menu Search/Search in Directory), implement a filter based on the modified date of a file.
 
 In the search dialog, add two date fields, called "Modified from:" and "Modified to:" where the user can specify the dates to filter the files that match based on their last modified dates. Then implement the functionality of this new filter such that when selected, the search and replace functionality will be performed only in files that match the filter conditions (i.e., they were last modified between the dates listed in “Modified from:” and “Modified to:”).
 
+
+![search_resultv3](https://github.com/jinglun-cn/JEdit/blob/master/figure/search_resultv3.png?raw=true)
+
+![search_resultv1](https://github.com/jinglun-cn/JEdit/blob/master/figure/search_resultv1.png?raw=true)
